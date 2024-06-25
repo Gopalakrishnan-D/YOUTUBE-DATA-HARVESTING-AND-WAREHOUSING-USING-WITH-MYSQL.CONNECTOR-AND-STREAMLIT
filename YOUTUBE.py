@@ -12,7 +12,7 @@ import pandas as pd
 # API CONNECTION
 
 def Api_connect():
-    Api_Key = "AIzaSyAD736C1J8WISbH0M4i5rYlV1iovFhCB7k"  # Replace with your actual API key
+    Api_Key = ""  # Replace with your actual API key inside the Quotes
     api_service_name = "youtube"
     api_version = "v3"
     youtube = build(api_service_name, api_version, developerKey=Api_Key)
